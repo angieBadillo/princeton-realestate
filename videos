@@ -1,0 +1,161 @@
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+
+
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div id="navbar9" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>
+            <a class="page-scroll" href="#services">Deal Finders</a>
+        </li>
+        <!--li>
+            <a class="page-scroll" href="#contact1">Housing Market</a>
+        </li-->
+        <li class="dropdown">
+            <a class="dropdown-toggle page-scroll" data-toggle="dropdown">Tools
+                <span class="caret"></span></a>
+            <ul class="dropdown-menu page-scroll">
+                <li><a href="#tools">Rehab Evaluator</a></li>
+                <li><a href="#tools">Analyze REI</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="page-scroll" href="#stories">Success Stories</a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img id="logo-navbar-middle" src="logo.png" width="200" alt="Princeton">
+            </a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#buyers">Buyers/Sellers</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#portfolio">Listings</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#about">About Us</a>
+        </li>
+        <li>
+            <a id="sign-in-with-popup" href="#" class="page-scroll">Login</a>
+        </li>
+        <!--li>
+            <a class="page-scroll" href="#contact">Contact</a>
+        </li-->
+        <!--li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </li-->
+    </ul>
+    <!-- /.navbar-collapse -->
+</div>
+</div>
+<!-- /.container-fluid -->
+</nav-->
+
+
+
+
+.navbar-nav {
+background-color: rgba(34, 34, 34, 0);
+width: 100%;
+text-align: center;
+}
+.navbar-nav  > li {
+display: inline-block;
+float: none;
+}
+.navbar-nav  > a {
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.navbar-nav > li > a {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.navbar-toggle {
+z-index:3;
+}
+
+.navbar-toggle {
+z-index: 1;
+}
+
+.headerBuyers {
+background: url("../img/listings/tiburon.jpg");
+}
+
+.headerSellers {
+background: url("../img/listings/2.jpg");
+}
+
+.headerTools {
+background: url("../img/listings/tiburon.jpg");
+}
+
+.glassEffect {
+background-color: rgba(0,0,0,.3) !important;
+}
+
+
+.deals {
+text-align: center;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+color: #f5f5f5;
+background-color: #222222;
+}
+
+.dropdown-menu {
+background-color: #222;
+}
+
+
+
+@media (min-width: 768px) {
+.navbar-custom {
+background-color: transparent;
+padding: 25px 0;
+-webkit-transition: padding 0.3s;
+-moz-transition: padding 0.3s;
+transition: padding 0.3s;
+border: none;
+}
+.navbar-custom .navbar-brand {
+font-size: 2em;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+.navbar-custom .navbar-nav > .active > a {
+border-radius: 3px;
+}
+}
+@media (min-width: 768px) {
+.navbar-custom.affix {
+background-color: #3e4147;
+padding: 10px 0;
+}
+.navbar-custom.affix .navbar-brand {
+font-size: 1.5em;
+}
+}
